@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply m-0 p-0 font-sans bg-white text-gray-800;
+}
+
+header {
+  @apply bg-blue-900 text-white text-center py-6 text-2xl font-semibold;
+}
+
+main {
+  @apply text-center py-12 px-4;
+}
+
+button {
+  @apply bg-blue-900 text-white px-6 py-3 rounded-lg text-lg transition duration-300;
+}
+
+button:hover {
+  @apply bg-blue-700;
+}
+
+footer {
+  @apply bg-gray-100 text-gray-700 text-center py-4 mt-12 text-sm;
+}
